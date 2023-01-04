@@ -4,6 +4,8 @@
 
 <h2>Contents</h2>
 <a href="https://github.com/Temceo/finalCapstone/blob/main/weather_app/index.html" target="_blank">index page</a>
+<a href="https://github.com/Temceo/finalCapstone/blob/main/weather_app/city_app.js" target="_blank">JavaScript file</a>
+<a href="https://github.com/Temceo/finalCapstone/blob/main/weather_app/style.css" target="_blank">CSS page</a>
 
 <h2>How it works</h2>
 <ol>
