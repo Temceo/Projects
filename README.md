@@ -19,6 +19,8 @@
 <h3>Screen shots of app in operation</h3>
 <p>View of index page - user has option to save articles or images</p>
 <img width="503" alt="image" src="https://user-images.githubusercontent.com/26333063/211186192-96aa20da-5c22-44b9-920b-8c8ed7b02b9c.png">
+<p>View of about page - user has option to save articles or images</p>
+<img width="456" alt="image" src="https://user-images.githubusercontent.com/26333063/211186299-330f74fa-0f33-4676-bab2-976954341168.png">
 
 <p>-------------------------------------------------------------------------------------------------------------------------------</p>
 <h2>City data app</h2>
