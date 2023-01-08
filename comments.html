@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Memory Masters</title>
+  </head>
+  <body>
+    <header class="text-centre">
+      <!-- Navigation created using an unordered list-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="saved.html">Saved Items</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contact form section -->
+    <div class="text-centre">
+      <div class="masters">
+        <span class="fas fa-brain" aria-hidden="true"></span>
+        <span>Memory Masters</span>
+      </div>
+    </div>
+    <div class="gradient"></div>
+    <div id="section-form">
+      <form id="comments">
+        <div class="blog-list">
+          <label for="blog-list" class="comments-label"
+            >Choose blog you are commenting on:</label
+          >
+          <select name="blog-list" id="blog-list" onchange="printComments()">
+            <option></option>
+            <option value="brain">Active Brain</option>
+            <option value="competition">Competitions</option>
+            <option value="thought">Food for Thought</option>
+            <option value="exercise">The Power of Exercise</option>
+            <option value="buzan">Tony Buzan</option>
+          </select>
+        </div>
+        <div class="rating-options">
+          <label for="rating-options" class="comments-label"
+            >Choose a rating between 1 and 5:</label
+          >
+          <input
+            type="number"
+            id="rating-options"
+            class="rating-options"
+            step="1"
+            min="1"
+            max="5"
+            placeholder="Rate 1 to 5"
+          />
+        </div>
+        <div class="user-input">
+          <label for="message" class="comments-label"
+            >Enter your comments below:</label
+          >
+          <textarea id="message" rows="5"></textarea>
+        </div>
+        <button type="submit" id="comment-btn">Submit</button>
+      </form>
+    </div>
+    <h2 id="comment-heading" class="text-centre"></h2>
+    <div id="comment-rating" class="text-centre">
+      <div class="stars-outer">
+        <div class="stars-inner"></div>
+      </div>
+    </div>
+    <ul id="comments-list"></ul>
+    <div class="gradient"></div>
+
+    <!-- Footer section -->
+    <div id="footer" class="text-centre">&copy;Memory Masters</div>
+    <!-- Link to JavaScript page -->
+    <script src="./script.js"></script>
+  </body>
+</html>

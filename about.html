@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google fonts link for the main font used on the site - Libre Baskerville -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome link for brain icon -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Memory Masters</title>
+  </head>
+  <body>
+    <header class="text-centre">
+      <!-- Navigation created using an unordered list-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="saved.html">Saved Items</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="quote" class="text-centre">
+      <div class="masters">
+        <!-- Font awesome brain icon -->
+        <span class="fas fa-brain" aria-hidden="true"></span>
+        <span>Memory Masters</span>
+      </div>
+    </div>
+
+    <!-- Introduction section -->
+    <section>
+      <div class="container">
+        <!-- Split class used to layout 2 columns per section -->
+        <div class="split">
+          <div>
+            <h2>Memory sports</h2>
+            <p>
+              My interest in memory was inspired by Tony Buzan. He has written
+              many popular books on how to utilise memory in day to day life.
+              Through his writings I discovered the World Memory Championships.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gradient"></div>
+
+    <!-- Tony Buzan section -->
+    <section>
+      <div class="container">
+        <div class="split">
+          <div class="article-with-image">
+            <h2 class="article-heading">Tony Buzan</h2>
+            <p class="article">
+              <!-- Link to external page -->
+              <a href="https://tonybuzan.com/" target="_blank">Tony Buzan</a>
+              wrote about and popularised mnemonic systems as a means of
+              improving education and creativity. He is credited with inventing
+              the mind mapping system which enables an individual to record
+              information in a map structure for easy recollection. In 1991 he
+              initiated the World Memory Championships. As of 2022, this
+              competition has been running for 31 years
+            </p>
+            <button class="article-btn">Save article for later</button>
+          </div>
+          <div>
+            <img
+              src="./imgs/buzan.jpeg"
+              alt="Tony Buzan smiling"
+              class="article-img"
+            />
+            <button class="image-btn">Save image for later</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- World memory championships section -->
+    <section>
+      <div class="container">
+        <div class="split reverse">
+          <div class="article-with-image">
+            <h2 class="article-heading">World Memory Championships</h2>
+            <!-- Link to Dominic O'Brien's website -->
+            <p class="article">
+              Initially participation was small, and the contestants were mainly
+              based in Europe. One of the early champions was
+              <a href="https://peakperformancetraining.org/" target="_blank"
+                >Dominic O'Brien </a
+              >who was crowned champion 8 times and went on to have a successful
+              career as an a memory expert, including authoring multiple books
+              and appearing as a TV personality. In recent times participation
+              has grown and participants from more than 30 countries participate
+              in the annual event.
+            </p>
+            <button class="article-btn">Save article for later</button>
+          </div>
+          <div>
+            <img
+              src="./imgs/mem_champs.jpg"
+              alt="smiling woman holding trophy"
+              class="article-img"
+            />
+            <button class="image-btn">Save image for later</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="gradient"></div>
+    <!-- Footer section -->
+    <div id="footer" class="text-centre">&copy;Memory Masters</div>
+    <!-- Link to JavaScript page -->
+    <script src="./script.js"></script>
+  </body>
+</html>
