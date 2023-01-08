@@ -17,7 +17,7 @@
   <li>Open the index.html file and follow the instructions on the screen</li>
 </ol>
 
-<h2>Screen shots of app in operation</h2>
+<h3>Screen shots of app in operation</h3>
 <p>Page on initial load</p>
 <img width="466" alt="image" src="https://user-images.githubusercontent.com/26333063/210538480-d30a2fab-882c-432c-a736-1d62663578f4.png">
 
