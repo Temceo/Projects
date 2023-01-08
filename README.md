@@ -9,7 +9,13 @@
 <a href="https://github.com/Temceo/finalCapstone/blob/main/Item%20storage%20-%20local%20storage/comments.html" target="_blank">Comments page</a> <br> 
 <a href="https://github.com/Temceo/finalCapstone/blob/main/Item%20storage%20-%20local%20storage/contact.html" target="_blank">Contact page</a> <br>                                                                            
 <a href="https://github.com/Temceo/finalCapstone/tree/main/Item%20storage%20-%20local%20storage/css" target="_blank">CSS page</a>
-<a href="https://github.com/Temceo/finalCapstone/tree/main/Item%20storage%20-%20local%20storage/imgs" target="_blank">Images page</a>                                                                                                                  
+<a href="https://github.com/Temceo/finalCapstone/tree/main/Item%20storage%20-%20local%20storage/imgs" target="_blank">Images page</a>    
+
+<h3>How it works</h3>
+<ol>
+  <li>Download the files and folders to your desktop</li>
+  <li>Using your favourite editor, open the index.html file and follow the instructions on the screen</li>
+</ol>
 <p>-------------------------------------------------------------------------------------------------------------------------------</p>
 <h2>City data app</h2>
 <p>The purpose of this app is demonstrate the use of an api.  The app is designed to connect to country and weather apis via the <a href="https://rapidapi.com/" target="_blank">rapid api portal</a> and collect the following data to be displayed to users: city name, population, elevation and temperature, in degrees centrigrade.  In this particular instance, users are restricted to viewing data on South African cities only.</p>
@@ -21,8 +27,8 @@
 
 <h3>How it works</h3>
 <ol>
-  <li>Download the files to your desktop</li>
-  <li>Open the index.html file and follow the instructions on the screen</li>
+  <li>Download the files and folders to your desktop</li>
+  <li>Using your favourite editor, open the index.html file and follow the instructions on the screen</li>
 </ol>
 
 <h3>Screen shots of app in operation</h3>
