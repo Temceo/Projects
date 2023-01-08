@@ -1,0 +1,320 @@
+/* The layout is a mobile first approach with adjustments made for larger screens with a media query */
+
+/* custom css */
+
+/* Re-set page settings in case of browser variations */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: #048abf;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+/* gradient for line dividing sections */
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(54, 69, 79, 1) 0%,
+    rgba(178, 185, 190, 1) 100%
+  );
+  height: 2px;
+}
+
+/* HOME PAGE STYLING */
+
+/* header css */
+
+header span,
+.masters {
+  font-size: 1.5em;
+}
+
+/* nav css */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+  gap: 1rem;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+nav a:hover {
+  color: aqua;
+}
+
+/* section css */
+
+section {
+  padding: 2rem 0;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+/* Media query for larger screen settings */
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+  /* set each column to 50% of section width */
+  .split > * {
+    flex-basis: 100%;
+  }
+  /* add a 2em padding if there is a sibling to the left */
+  .split > * + * {
+    margin-left: 2em;
+  }
+  /* reverse image to show before text in middle section */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .masters {
+    font-size: 2em;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
+  display: block;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border-left: 1px solid aqua;
+  border-top: 1px solid aqua;
+  padding: 10px;
+}
+
+.container {
+  width: min(90%, 70.5rem);
+  margin-inline: auto;
+}
+
+/* footer css */
+#footer {
+  margin-top: 1rem;
+}
+#copy {
+  margin-top: 1rem;
+}
+
+/* ABOUT PAGE STYLING */
+
+.mem-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.mem-table thead th {
+  background-color: #033e8c;
+  text-align: left;
+}
+
+.mem-table th,
+td {
+  padding: 12px 15px;
+}
+
+.mem-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.mem-table thead tr {
+  border-bottom: 0;
+}
+
+.mem-table tbody tr:last-of-type {
+  border-bottom: 2px solid #033e8c;
+}
+
+/* COMMENTS AND CONTACT PAGE STYLING */
+
+#section-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact,
+#comments {
+  width: 100%;
+  max-width: 600px;
+}
+
+#contact .user-input,
+#comments .user-input {
+  margin-bottom: 1rem;
+}
+
+#contact input,
+#contact textarea,
+#comments input,
+#comments textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  color: #fff;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+#contact button,
+#comments button {
+  background: transparent;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid grey;
+  padding: 1rem 0;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+#contact button:hover,
+#comments button:hover {
+  background-color: #033e8c;
+}
+
+#comments label {
+  display: block;
+  padding: 1em 0;
+}
+
+/* SAVED ITEMS PAGE STYLES */
+
+#articles-container,
+#images-container {
+  margin-inline: auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.saved-headings {
+  margin: 1.5em;
+}
+
+.comments-span {
+  color: red;
+}
+
+#blog-list {
+  display: block;
+  width: 100%;
+  height: 2em;
+}
+
+.saved-articles {
+  margin: 1em 0;
+}
+
+/* COMMENTS PAGE STYLES */
+
+#comment-heading,
+#comments-list,
+#comments-rating {
+  overflow-wrap: break-word;
+  margin-inline: auto;
+  max-width: 600px;
+  width: 90%;
+}
+
+#comments-list li {
+  list-style: square;
+}
+
+#comment-rating .stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+#comment-rating .stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+#comment-rating .stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc;
+}
+
+#comment-rating .stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #f8ce0b;
+}
+
+/* SAVE BUTTONS STYLING */
+
+.article-btn,
+.image-btn {
+  margin: 1.5em;
+  padding: 0.3em 0.5em;
+  background-color: #3d5b81;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.articleBtn:hover,
+.imageBtn:hover {
+  background-color: #048c80;
+}
