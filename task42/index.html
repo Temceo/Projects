@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links to external fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link to internal CSS page -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Memory Masters</title>
+  </head>
+  <body>
+    <header class="text-centre">
+      <!-- Navigation created using an unordered list-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="saved.html">Saved Items</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Quotation section -->
+    <div id="quote" class="text-centre">
+      <div class="masters">
+        <!-- Font awesome brain icon -->
+        <span class="fas fa-brain" aria-hidden="true"></span>
+        <span>Memory Masters</span>
+      </div>
+      <!-- Quotation -->
+      <figure class="quote">
+        <q> Memory and creativity are essential to education </q>
+        <figcaption>&mdash; <em>Tony Buzan</em></figcaption>
+      </figure>
+    </div>
+    <!-- Introduction section -->
+    <section>
+      <div class="container">
+        <!-- Split class for flexbox 2 column layout per section -->
+        <div class="split">
+          <div>
+            <h2>Why I love exercising my memory</h2>
+            <p>
+              The saying goes that if you don't use it, you lose. I have found
+              that exercising my brain, through games, is a great way to improve
+              my general memory and maintain my mental wellbeing. Below are a
+              few blogs I have written on the matter. Enjoy!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gradient"></div>
+
+    <!-- First blog section -->
+    <section>
+      <div class="container articles">
+        <div class="split">
+          <div class="article-with-image">
+            <h2 class="article-heading">Active Brain</h2>
+            <p class="article">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+              quaerat quasi eligendi. Officia nulla nam repellendus sequi vel
+              quae assumenda voluptatum, debitis adipisci. Repellendus nisi
+              asperiores at et libero perferendis expedita in, debitis odio? Ad
+              ipsam impedit adipisci esse nulla.
+            </p>
+            <button class="article-btn">Save article for later</button>
+          </div>
+          <div>
+            <img
+              src="./imgs/brain.jpg"
+              alt="Image of brain"
+              class="article-img"
+            />
+            <button class="image-btn">Save image for later</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Second blog section -->
+    <section>
+      <div class="container articles">
+        <div class="split reverse">
+          <div class="article-with-image">
+            <h2 class="article-heading">The Power of Exercise</h2>
+            <p class="article">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+              quaerat quasi eligendi. Officia nulla nam repellendus sequi vel
+              quae assumenda voluptatum, debitis adipisci. Repellendus nisi
+              asperiores at et libero perferendis expedita in, debitis odio? Ad
+              ipsam impedit adipisci esse nulla.
+            </p>
+            <button class="article-btn">Save article for later</button>
+          </div>
+          <div>
+            <img
+              src="./imgs/exercise.jpg"
+              alt="brain lifting weight"
+              class="article-img"
+            />
+            <button class="image-btn">Save image for later</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third blog section -->
+    <section>
+      <div class="container articles">
+        <div class="split">
+          <div class="article-with-image">
+            <h2 class="article-heading">Food for thought</h2>
+            <p class="article">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque
+              quaerat quasi eligendi. Officia nulla nam repellendus sequi vel
+              quae assumenda voluptatum, debitis adipisci. Repellendus nisi
+              asperiores at et libero perferendis expedita in, debitis odio? Ad
+              ipsam impedit adipisci esse nulla.
+            </p>
+            <button class="article-btn">Save article for later</button>
+          </div>
+          <div>
+            <img
+              src="./imgs/nutrition.jpg"
+              alt="healthy food images"
+              class="article-img"
+            />
+            <button class="image-btn">Save image for later</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gradient"></div>
+
+    <!-- Footer section -->
+    <div id="footer" class="text-centre">
+      <p>I'm always interested in hearing about your memory experiences.</p>
+      <p>Tell me your memory interests:</p>
+      <form id="radio">
+        <input type="radio" id="books" name="interests" />
+        <label for="books">Books</label>
+
+        <input type="radio" id="comp" name="interests" />
+        <label for="comp">Competition</label>
+
+        <input type="radio" id="ed" name="interests" />
+        <label for="ed">Education</label>
+      </form>
+      <p>Contact me: <a href="mailto:martin@example.com">My email</a></p>
+      <p id="copy">&copy;Memory Masters</p>
+    </div>
+    <!-- Link to JavaScript page -->
+    <script src="./script.js"></script>
+  </body>
+</html>
