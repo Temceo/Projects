@@ -1,0 +1,78 @@
+/* using border-box model  */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #417ac4;
+  color: #fff;
+}
+
+/* Container style */
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* Style for input field */
+.intro {
+  font-size: 0.8em;
+}
+
+#input-area {
+  position: relative;
+}
+
+.autocomplete-input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.autocomplete-input::placeholder {
+  color: lightgrey;
+}
+
+/* Style for autocomplete dropdown list */
+.autocomplete-list {
+  position: absolute;
+  left: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.autocomplete-list li {
+  margin: 0;
+  padding: 0.2em;
+  max-width: auto;
+  background-color: #fff;
+  font-size: 0.7em;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Style for display of city information (city name, population, elevation, temperature) */
+
+#display-data {
+  list-style-type: none;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+}
