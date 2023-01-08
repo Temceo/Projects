@@ -17,7 +17,9 @@
   <li>Using your favourite editor, open the index.html file and follow the instructions on the screen</li>
 </ol>
 <h3>Screen shots of app in operation</h3>
-<p>View of index page</p>
+<p>View of index page - user has option to save articles or images</p>
+<img width="503" alt="image" src="https://user-images.githubusercontent.com/26333063/211186192-96aa20da-5c22-44b9-920b-8c8ed7b02b9c.png">
+
 <p>-------------------------------------------------------------------------------------------------------------------------------</p>
 <h2>City data app</h2>
 <p>The purpose of this app is demonstrate the use of an api.  The app is designed to connect to country and weather apis via the <a href="https://rapidapi.com/" target="_blank">rapid api portal</a> and collect the following data to be displayed to users: city name, population, elevation and temperature, in degrees centrigrade.  In this particular instance, users are restricted to viewing data on South African cities only.</p>
