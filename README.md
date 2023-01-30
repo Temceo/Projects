@@ -5,6 +5,7 @@
 <h3>Steps to download and play hangman on your local desktop</h3>
 <ol>
 <li>Download all the files and folders as a zip file using the green download button</li>
+  <li>From your terminal type: git clone https://github.com/Temceo/Projects.git</li>
 <li>In the hangman folder run "npm start" to play the game</li>
 </ol>
 <h3>Screen shots of the game</h1>
