@@ -8,4 +8,9 @@
 <li>In the hangman folder run "npm start" to play the game</li>
 </ol>
 <h3>Screen shots of the game</h1>
+<h4>Start of game</h4>
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/26333063/215429594-c9f4f3b6-c553-4b1d-b229-5c8df2695c70.png">
+
+<h4>Game in progress</h4>
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/26333063/215430022-74ed120f-defb-47ed-aa72-000bd50a9292.png">
+
