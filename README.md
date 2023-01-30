@@ -6,7 +6,7 @@
 <ol>
 <li>Download all the files and folders as a zip file using the green "code" button</li>
 <li>From your terminal type: git clone https://github.com/Temceo/Projects.git</li>
-<li>cd to the unzipped folder and type "npm install"</li>
+<li>Change directory to the unzipped folder and type "npm install"</li>
 <li>Run "npm start" to play the game</li>
 </ol>
 <h3>Screen shots of the game</h1>
