@@ -14,3 +14,7 @@
 <h4>Game in progress</h4>
 <img width="385" alt="image" src="https://user-images.githubusercontent.com/26333063/215430022-74ed120f-defb-47ed-aa72-000bd50a9292.png">
 
+<h4>Game win scenario</h4>
+
+<h4>Game loss scenario</h4>
+<img width="389" alt="image" src="https://user-images.githubusercontent.com/26333063/215430566-2a74fccc-720f-45a0-90da-c5307be5be20.png">
