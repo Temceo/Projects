@@ -1,4 +1,4 @@
-# finalCapstone
+# Individual projects
 <h2>Local storage</h2>
 <p>The purpose of this app is demonstrate the utility of local storage.  The app is designed to enable users to choose articles or images from the index and about pages they wish to review later.  This is achieved through use of local storage.  In addition, users have the ability to rate articles (using star ratings) and add comments in the comments page. The project showcases use of local storage, and has built in features to validate user entries.</p>
 <p>This is an ongoing project which will be developed. A future functionality to be added is the ability for the user to delete saved items and to edit comments.</p>
