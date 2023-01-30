@@ -4,7 +4,7 @@
 <p>This is an ongoing project which will be developed. A future functionality to be added is add a keyboard for letter entry</p>
 <h3>Steps to download and play hangman on your local desktop</h3>
 <ol>
-<li>Download all the files and folders as a zip file using the green download button</li>
+<li>Download all the files and folders as a zip file using the green "code" button</li>
 <li>From your terminal type: git clone https://github.com/Temceo/Projects.git</li>
 <li>cd to the unzipped folder and type "npm install"</li>
 <li>Run "npm start" to play the game</li>
