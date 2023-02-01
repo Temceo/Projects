@@ -6,6 +6,7 @@
 <ol>
 <li>Download all the files and folders as a zip file using the green "code" button</li>
 <li>From your terminal type: git clone https://github.com/Temceo/Projects.git</li>
+<li>Check that you have node.js installed on your pc.  If not, install from: <a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
 <li>Change directory to the unzipped folder and type "npm install"</li>
 <li>Run "npm start" to play the game</li>
 </ol>
