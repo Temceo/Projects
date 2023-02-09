@@ -5,8 +5,8 @@
 <p>This is an ongoing project which will be developed. A future functionality to be added is add a keyboard for letter entry</p>
 <h3>Steps to download and play hangman on your local desktop</h3>
 <ol>
- <li>Check that you have git installed on your pc.  If not, install from: <a href="https://git-scm.com/downloads" target="_blank">Node.js</a></li>
-  <li>You also need to have node.js installed on your pc.  If not, install from: <a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
+ <li>Check that you have git installed on your pc.  If not, install from: <a href="https://git-scm.com/downloads" target="_blank">Git</a></li>
+ <li>You also need to have node.js installed on your pc.  If not, install from: <a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
 <li>Download all the files and folders as a zip file using the green "code" button</li>
 <li>From your terminal type: git clone https://github.com/Temceo/Projects.git</li>
 <li>Change directory to the unzipped folder and type "npm install"</li>
